@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LabeledInputComponent } from './labeled-input/labeled-input.component';
+import { PetDashboardComponent } from './pet-dashboard/pet-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LabeledInputComponent
+    LabeledInputComponent,
+    PetDashboardComponent
   ],
   imports: [
     BrowserModule
